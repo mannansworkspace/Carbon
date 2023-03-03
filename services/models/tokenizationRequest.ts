@@ -1,0 +1,23 @@
+export interface TokenizationRequestInterface{
+    uuid: string,
+    userId: string,
+    createdAt: Date,
+    updatedAt: Date,
+    status: string,
+    subAccountId: string,
+    batchId: string,
+    clientName: string,
+    email: string,
+    ethAddress: string,
+    transferId: string,
+    tokenConfigId: number,
+    tokenContractId: string,
+    projectId: number,
+    projectName: string,
+    vintageStart: Date,
+    vintageEnd: Date,
+    creditType: string,
+    amount: number,
+    certifications: string,
+    txHash : string
+}
